@@ -1,7 +1,7 @@
 // you can custom css vars here
 :root {
     //文章背景色
-    //    --va-c-bg: rgb(255 217 225 / 0.7);
+    --va-c-bg: rgb(255 220 232 / 0.7);
     //全屏背景
     --st-c-custom-bg-img: url('https://s1.imagehub.cc/images/2024/03/13/1aa457677fa72b133bf097b9997fec69.png');
     //      
@@ -11,16 +11,26 @@
     //文字hover颜色
     --st-c-secondary: pink;
     //导航背景颜色
-    --st-c-bg-nav: rgb(255 217 225 / 0.2);
-    //    
+    --st-c-bg-nav: rgb(242 229 232 / 0.2);
+    //  
+
 }
 
 //黑夜模式样式
 html.dark {
     //全屏背景
     --st-c-body-bg-img: url('https://s1.imagehub.cc/images/2024/03/03/9d0e3b5a0f4c02b5b74edd689de279b3.jpeg');
+    //文章背景色
+    --va-c-bg: black;
+    //文字颜色
+    --st-c-text: #deaeae;
+    //文字hover颜色
+    //   --st-c-secondary: pink;
+    //导航hover颜色
+    --st-c-navbar-hover-bg-color: pink;
 }
 
+//文章背景
 .markdown-body {
     padding: 2px 20px;
     background: var(--va-c-bg);
