@@ -44,12 +44,18 @@ export default defineValaxyConfig<ThemeUserConfig>({
     navbar: [{
       text: '百度',
       link: 'https://baidu.com',
-    },],
+    },
+    {
+      text: 'klee的仓库',
+    link: 'https://www.kdocs.cn/l/ccSu7CnMVaKL',
+   },
+  
+  
+  ],
     navbarTitle: [
       'Shiroka',
       '💮',
-      '1205',
-
+      '白花的猫不会飞',
     ],
 
 
