@@ -22,7 +22,7 @@ export default defineValaxyConfig<ThemeUserConfig>({
         'https://wrxinyue-images.s3.bitiful.net/wallpaper/Genshin%20Impact%20-%20Yae%20Miko%20(4)%20Cybust%20PC.mp4'
       ],
       title: 'Hello, shiroka',
-      motto: 'nothing',
+      motto: '浪漫是生存的源泉。对于治病而言也是一样的哦',
       style: '',
     },
 
@@ -43,7 +43,7 @@ export default defineValaxyConfig<ThemeUserConfig>({
     ],
 
     navbar: [{
-      text: 'string',
+      text: '百度',
       link: 'https://baidu.com',
     },],
     navbarTitle: [

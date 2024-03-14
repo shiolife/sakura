@@ -7,7 +7,7 @@ settings:
 dependencies:
   valaxy:
     specifier: 0.18.5
-    version: 0.18.5(@types/markdown-it@13.0.7)(@unhead/shared@1.8.13)(postcss@8.4.35)(typescript@5.4.2)(unhead@1.8.13)
+    version: 0.18.5(@types/markdown-it@13.0.7)(@unhead/shared@1.8.16)(postcss@8.4.35)(typescript@5.4.2)(unhead@1.8.16)
   valaxy-theme-sakura:
     specifier: ^0.3.0
     version: 0.3.0
@@ -1068,15 +1068,22 @@ packages:
       '@unhead/shared': 1.8.13
     dev: false
 
-  /@unhead/schema-org@1.8.13(@unhead/shared@1.8.13)(unhead@1.8.13):
+  /@unhead/dom@1.8.16:
+    resolution: {integrity: sha512-n4wHKDI1ihpbbGrnQHwmWhaKwfdEWGA/1nSra7vqc8vmrIPtnOLrfU0cuepEomHZ/ziUsI6SX/RFB+Jm21D9fw==}
+    dependencies:
+      '@unhead/schema': 1.8.16
+      '@unhead/shared': 1.8.16
+    dev: false
+
+  /@unhead/schema-org@1.8.13(@unhead/shared@1.8.16)(unhead@1.8.16):
     resolution: {integrity: sha512-4S7INWfbkxrTbGKE0OqzXp+p3MCV6x9XzRaJReGX28F3HHxW0X9F9v/CFzkC6WXl+Fzq2ewEdATM6FoPbq2MHw==}
     peerDependencies:
       '@unhead/shared': 1.8.13
       unhead: '>=1.8.10'
     dependencies:
-      '@unhead/shared': 1.8.13
+      '@unhead/shared': 1.8.16
       ufo: 1.4.0
-      unhead: 1.8.13
+      unhead: 1.8.16
     dev: false
 
   /@unhead/schema@1.8.13:
@@ -1086,10 +1093,23 @@ packages:
       zhead: 2.2.4
     dev: false
 
+  /@unhead/schema@1.8.16:
+    resolution: {integrity: sha512-q/AH7uWlE/KrYqZJWKRCguSV1f3U04PKqy1A3YA5ZppRAW2IHqNQ0P2ntc3b0dIdulhN23nkiH8sLyU7dAZdXw==}
+    dependencies:
+      hookable: 5.5.3
+      zhead: 2.2.4
+    dev: false
+
   /@unhead/shared@1.8.13:
     resolution: {integrity: sha512-NV/quz31oqkITx+Epwzgf01AaYMPTzvkEdg9jvGltTWeSHWKtowUeTRPfWUc3TTPtCzrYgHQQjGN8YOHdWjC7Q==}
     dependencies:
       '@unhead/schema': 1.8.13
+    dev: false
+
+  /@unhead/shared@1.8.16:
+    resolution: {integrity: sha512-UNbCyO5WS2aimRdB5Ov38ZEDUl5kYI4vnnF5rCfmUKwexe2qb0HXixueMbNwQSoKKsGxTYm5pkIFCZlHCoZrVQ==}
+    dependencies:
+      '@unhead/schema': 1.8.16
     dev: false
 
   /@unhead/vue@1.8.13(vue@3.4.21):
@@ -4577,6 +4597,15 @@ packages:
       hookable: 5.5.3
     dev: false
 
+  /unhead@1.8.16:
+    resolution: {integrity: sha512-ZcOWOyrVhL+/8zmsfeFy+vuTAvQE3xOwEpMHG15aiQEXH5mYbwcPil2Bb+GEBdcEGVigl7B0TZL3IJ7xJ47+7g==}
+    dependencies:
+      '@unhead/dom': 1.8.16
+      '@unhead/schema': 1.8.16
+      '@unhead/shared': 1.8.16
+      hookable: 5.5.3
+    dev: false
+
   /unist-util-stringify-position@3.0.3:
     resolution: {integrity: sha512-k5GzIBZ/QatR8N5X2y+drfpWG8IDBzdnVj6OInRNWm1oXrzydiaAT2OQiA8DPRRZyAKb9b6I2a6PxYklZD0gKg==}
     dependencies:
@@ -4792,7 +4821,7 @@ packages:
       animejs: 3.2.2
     dev: false
 
-  /valaxy@0.18.5(@types/markdown-it@13.0.7)(@unhead/shared@1.8.13)(postcss@8.4.35)(typescript@5.4.2)(unhead@1.8.13):
+  /valaxy@0.18.5(@types/markdown-it@13.0.7)(@unhead/shared@1.8.16)(postcss@8.4.35)(typescript@5.4.2)(unhead@1.8.16):
     resolution: {integrity: sha512-J7jpQq5Qp3EO/eo2HgrLXbODwZGV3ofAEljF1MNIPTxDm/My/WwnnEz9dPfO4zFf/I3QdygvGfc2iKPrAI3cjA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -4805,7 +4834,7 @@ packages:
       '@types/body-scroll-lock': 3.1.2
       '@types/katex': 0.16.7
       '@unhead/addons': 1.8.13
-      '@unhead/schema-org': 1.8.13(@unhead/shared@1.8.13)(unhead@1.8.13)
+      '@unhead/schema-org': 1.8.13(@unhead/shared@1.8.16)(unhead@1.8.16)
       '@unhead/vue': 1.8.13(vue@3.4.21)
       '@valaxyjs/devtools': 0.18.5(debug@4.3.4)
       '@vitejs/plugin-vue': 5.0.4(vite@5.1.6)(vue@3.4.21)
