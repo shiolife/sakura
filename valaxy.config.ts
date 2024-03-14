@@ -26,7 +26,6 @@ export default defineValaxyConfig<ThemeUserConfig>({
       style: '',
     },
 
-
     pages: [
       {
         name: '我的小伙伴们',
@@ -56,10 +55,10 @@ export default defineValaxyConfig<ThemeUserConfig>({
 
     footer: {
       since: 2024,
-      powered: false,
+      powered: true,
       beian: {
         enable: true,
-        icp: '',
+        icp: '111',
       },
 
     },

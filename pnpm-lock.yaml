@@ -7,10 +7,10 @@ settings:
 dependencies:
   valaxy:
     specifier: 0.18.5
-    version: 0.18.5(@types/markdown-it@13.0.7)(@unhead/shared@1.8.16)(postcss@8.4.35)(typescript@5.4.2)(unhead@1.8.16)
+    version: 0.18.5(@types/markdown-it@13.0.7)(@unhead/shared@1.8.18)(postcss@8.4.35)(typescript@5.4.2)(unhead@1.8.18)
   valaxy-theme-sakura:
-    specifier: ^0.3.0
-    version: 0.3.0
+    specifier: ^0.3.2
+    version: 0.3.2
   valaxy-theme-yun:
     specifier: 0.18.5
     version: 0.18.5
@@ -1075,15 +1075,22 @@ packages:
       '@unhead/shared': 1.8.16
     dev: false
 
-  /@unhead/schema-org@1.8.13(@unhead/shared@1.8.16)(unhead@1.8.16):
+  /@unhead/dom@1.8.18:
+    resolution: {integrity: sha512-F6ckuW+IAojGCSb++WFQlDeI3/80OALpD6yDcDrhAxZ8ogQatd5gXWjTmSiuV/0M2XIeDq3jwampvq6oomU6Gw==}
+    dependencies:
+      '@unhead/schema': 1.8.18
+      '@unhead/shared': 1.8.18
+    dev: false
+
+  /@unhead/schema-org@1.8.13(@unhead/shared@1.8.18)(unhead@1.8.18):
     resolution: {integrity: sha512-4S7INWfbkxrTbGKE0OqzXp+p3MCV6x9XzRaJReGX28F3HHxW0X9F9v/CFzkC6WXl+Fzq2ewEdATM6FoPbq2MHw==}
     peerDependencies:
       '@unhead/shared': 1.8.13
       unhead: '>=1.8.10'
     dependencies:
-      '@unhead/shared': 1.8.16
+      '@unhead/shared': 1.8.18
       ufo: 1.4.0
-      unhead: 1.8.16
+      unhead: 1.8.18
     dev: false
 
   /@unhead/schema@1.8.13:
@@ -1100,6 +1107,13 @@ packages:
       zhead: 2.2.4
     dev: false
 
+  /@unhead/schema@1.8.18:
+    resolution: {integrity: sha512-E4oq4juwGJkXPOJlc4Qdp1iVTe79H4TSMWkOB8sSlU44vhvcuZduFYH9CCn29JvtV/640Uaf2QeX4o+wX96LRQ==}
+    dependencies:
+      hookable: 5.5.3
+      zhead: 2.2.4
+    dev: false
+
   /@unhead/shared@1.8.13:
     resolution: {integrity: sha512-NV/quz31oqkITx+Epwzgf01AaYMPTzvkEdg9jvGltTWeSHWKtowUeTRPfWUc3TTPtCzrYgHQQjGN8YOHdWjC7Q==}
     dependencies:
@@ -1110,6 +1124,12 @@ packages:
     resolution: {integrity: sha512-UNbCyO5WS2aimRdB5Ov38ZEDUl5kYI4vnnF5rCfmUKwexe2qb0HXixueMbNwQSoKKsGxTYm5pkIFCZlHCoZrVQ==}
     dependencies:
       '@unhead/schema': 1.8.16
+    dev: false
+
+  /@unhead/shared@1.8.18:
+    resolution: {integrity: sha512-2Tw5oyTjMkPn11UoR9AB3kSk2nDVG+7nCS4dZUwdxTMqndUnYyWoGB0EcO2WbK6YpkpulLIlfmiXVzWW4PTrWg==}
+    dependencies:
+      '@unhead/schema': 1.8.18
     dev: false
 
   /@unhead/vue@1.8.13(vue@3.4.21):
@@ -4597,12 +4617,12 @@ packages:
       hookable: 5.5.3
     dev: false
 
-  /unhead@1.8.16:
-    resolution: {integrity: sha512-ZcOWOyrVhL+/8zmsfeFy+vuTAvQE3xOwEpMHG15aiQEXH5mYbwcPil2Bb+GEBdcEGVigl7B0TZL3IJ7xJ47+7g==}
+  /unhead@1.8.18:
+    resolution: {integrity: sha512-XmCGVev0bwo+jy5qh6PW1vACnPoQvv3MEwqo4w0+49W2ZGPMZYPtIa8GAZiaWgkycrlie1WgZejjJEG9bYVgZw==}
     dependencies:
-      '@unhead/dom': 1.8.16
-      '@unhead/schema': 1.8.16
-      '@unhead/shared': 1.8.16
+      '@unhead/dom': 1.8.18
+      '@unhead/schema': 1.8.18
+      '@unhead/shared': 1.8.18
       hookable: 5.5.3
     dev: false
 
@@ -4802,8 +4822,8 @@ packages:
       sade: 1.8.1
     dev: false
 
-  /valaxy-theme-sakura@0.3.0:
-    resolution: {integrity: sha512-7uyFaT2pgU5KC6282F2yS0oBtnmdanZs4+hwXTEuNugzVCvfCN/L19iHPbwYHZUeNgL7JdJgHdwGQgoBedk2VQ==}
+  /valaxy-theme-sakura@0.3.2:
+    resolution: {integrity: sha512-LmIQ+BoFq8RzD5VlQIjbYaKmaVQb060ii3k6JmIqUFYl8MlqMoP/Ai9K5HARfQ7SZxxQcTb4TWCAQvYRRVMGbA==}
     dependencies:
       '@iconify-json/fa6-solid': 1.1.20
       '@iconify-json/mdi': 1.1.64
@@ -4821,7 +4841,7 @@ packages:
       animejs: 3.2.2
     dev: false
 
-  /valaxy@0.18.5(@types/markdown-it@13.0.7)(@unhead/shared@1.8.16)(postcss@8.4.35)(typescript@5.4.2)(unhead@1.8.16):
+  /valaxy@0.18.5(@types/markdown-it@13.0.7)(@unhead/shared@1.8.18)(postcss@8.4.35)(typescript@5.4.2)(unhead@1.8.18):
     resolution: {integrity: sha512-J7jpQq5Qp3EO/eo2HgrLXbODwZGV3ofAEljF1MNIPTxDm/My/WwnnEz9dPfO4zFf/I3QdygvGfc2iKPrAI3cjA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -4834,7 +4854,7 @@ packages:
       '@types/body-scroll-lock': 3.1.2
       '@types/katex': 0.16.7
       '@unhead/addons': 1.8.13
-      '@unhead/schema-org': 1.8.13(@unhead/shared@1.8.16)(unhead@1.8.16)
+      '@unhead/schema-org': 1.8.13(@unhead/shared@1.8.18)(unhead@1.8.18)
       '@unhead/vue': 1.8.13(vue@3.4.21)
       '@valaxyjs/devtools': 0.18.5(debug@4.3.4)
       '@vitejs/plugin-vue': 5.0.4(vite@5.1.6)(vue@3.4.21)
@@ -5042,7 +5062,7 @@ packages:
       vue-router:
         optional: true
     dependencies:
-      '@unhead/dom': 1.8.13
+      '@unhead/dom': 1.8.16
       '@unhead/vue': 1.8.13(vue@3.4.21)
       critters: 0.0.20
       fs-extra: 11.2.0

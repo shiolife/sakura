@@ -33,8 +33,17 @@ html.dark {
 }
 
 //文章背景
-.markdown-body {
-    padding: 2px 20px;
-    background: var(--va-c-bg);
-    border-radius: 10px;
+// .markdown-body {
+//     padding: 2px 20px;
+//     background: var(--va-c-bg);
+//     border-radius: 10px;
+// }
+
+.markdown-body{
+    p{
+        text-indent: 1.5rem;
+    }
+    h5{
+        text-align: center;
+    }
 }
