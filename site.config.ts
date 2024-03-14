@@ -2,12 +2,13 @@ import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
   url: 'https://valaxy.site/',
+  favicon:"https://s1.imagehub.cc/images/2024/03/07/261b5a5cdd2de46a25602ad58cb10b4c.jpeg",
   lang: 'zh-CN',
   title: '白花的猫不会飞',
   author: {
     name: 'shiroka',
   },
-  description: 'Valaxy Theme Yun Preview.',
+  description: 'shiroka home',
   social: [
     {
       name: 'RSS',
@@ -16,24 +17,16 @@ export default defineSiteConfig({
       color: 'orange',
     },
     {
-      name: 'QQ 群 1050458482',
-      link: 'https://qm.qq.com/cgi-bin/qm/qr?k=kZJzggTTCf4SpvEQ8lXWoi5ZjhAx0ILZ&jump_from=webapi',
+      name: 'QQ 群 864540602',
+      link: 'https://qm.qq.com/q/s8je2hdowU',
       icon: 'i-ri-qq-line',
       color: '#12B7F5',
     },
     {
       name: 'GitHub',
-      link: 'https://github.com/YunYouJun',
+      link: 'https://github.com/shiolife',
       icon: 'i-ri-github-line',
       color: '#6e5494',
-    },
-
-
-    {
-      name: '网易云音乐',
-      link: 'https://music.163.com/#/user/home?id=247102977',
-      icon: 'i-ri-netease-cloud-music-line',
-      color: '#C20C0C',
     },
 
     {
@@ -43,10 +36,9 @@ export default defineSiteConfig({
       color: '#FF8EB3',
     },
 
-
     {
       name: 'E-Mail',
-      link: 'mailto:me@yunyoujun.cn',
+      link: 'mailto:198963653@qq.com',
       icon: 'i-ri-mail-line',
       color: '#8E71C1',
     },
@@ -65,6 +57,7 @@ export default defineSiteConfig({
   sponsor: {
     enable: true,
     title: '我很可爱，请给我钱！',
+    description: "我很可爱，请给我钱",
     methods: [
       // {
       //   name: '支付宝',
