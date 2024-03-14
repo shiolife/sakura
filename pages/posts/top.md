@@ -5,8 +5,15 @@ tags:
 top: 1
 ---
 
+<a href="https://qm.qq.com/q/s8je2hdowU">864540602 点击加群</a>
 
-如果没有投稿，可能不会有更新 <br><a href="https://qm.qq.com/q/s8je2hdowU">群号：864540602点击加群</a>
+欢迎投稿
+
+demo版本可能有以下bug，
+
+1.没有删除外挂标签
+
+2.加粗样式错误
 
 鸣谢：
 
