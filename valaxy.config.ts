@@ -41,21 +41,24 @@ export default defineValaxyConfig<ThemeUserConfig>({
       },
     ],
 
-    navbar: [{
-      text: '百度',
-      link: 'https://baidu.com',
-    },
-    {
+    navbar: [
+      {
+        text: '破群',
+        link: 'https://qm.qq.com/q/s8je2hdowU',
+        icon: 'i-ri-qq-line'
+        },
+      {
+          text: '百度',
+          link: 'https://baidu.com',
+          },
+      {
       text: 'klee的仓库',
       link: 'https://www.kdocs.cn/l/ccSu7CnMVaKL',
-   },
-   {
-    text: '破群',
-    link: 'https://qm.qq.com/q/s8je2hdowU',
- },
-  
-  
-  ],
+      icon: 'i-ri-train-line',
+      },
+      
+      
+    ],
     navbarTitle: [
       'Shiroka👻',
       '💮',
