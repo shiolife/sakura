@@ -47,15 +47,19 @@ export default defineValaxyConfig<ThemeUserConfig>({
     },
     {
       text: 'klee的仓库',
-    link: 'https://www.kdocs.cn/l/ccSu7CnMVaKL',
+      link: 'https://www.kdocs.cn/l/ccSu7CnMVaKL',
    },
+   {
+    text: '破群',
+    link: 'https://qm.qq.com/q/s8je2hdowU',
+ },
   
   
   ],
     navbarTitle: [
-      'Shiroka',
+      'Shiroka👻',
       '💮',
-      '白花的猫不会飞',
+      '👻',
     ],
 
 
