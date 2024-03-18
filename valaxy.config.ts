@@ -50,13 +50,12 @@ export default defineValaxyConfig<ThemeUserConfig>({
       {
           text: '百度',
           link: 'https://baidu.com',
-          },
+      },
       {
       text: 'klee的仓库',
       link: 'https://www.kdocs.cn/l/ccSu7CnMVaKL',
       icon: 'i-ri-train-line',
       },
-      
       
     ],
     navbarTitle: [
@@ -64,7 +63,6 @@ export default defineValaxyConfig<ThemeUserConfig>({
       '💮',
       '👻',
     ],
-
 
     footer: {
       since: 2024,
