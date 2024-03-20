@@ -45,12 +45,19 @@ html.dark {
     }
     h5{
         text-align: center;
+        color: red;
     }
     img{
         text-align: center;
     }
-    p .red{
+    .red{
         color: red;
         font-size: 22px;
     }
+}
+
+//文章内引用
+
+.markdown-body blockquote {
+    border-left: 4px solid #c721b0;
 }

@@ -25,7 +25,8 @@ export default defineValaxyConfig<ThemeUserConfig>({
       motto: '浪漫是生存的源泉。对于治病而言也是一样的哦',
       style: '',
     },
-
+    animation: true,
+    scrollDamping: true,
     pages: [
       {
         name: '我的小伙伴们',
