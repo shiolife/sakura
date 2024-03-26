@@ -61,3 +61,11 @@ html.dark {
 .markdown-body blockquote {
     border-left: 4px solid #c721b0;
 }
+
+.markdown-body .header-anchor:before {
+    content: var(--va-header-anchor-symbol, "💮");
+}
+
+.markdown-body .header-anchor:before {
+    content: var(--va-header-anchor-symbol, "1");
+}

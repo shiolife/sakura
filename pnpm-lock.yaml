@@ -7,10 +7,10 @@ settings:
 dependencies:
   valaxy:
     specifier: 0.18.5
-    version: 0.18.5(@types/markdown-it@13.0.7)(@unhead/shared@1.8.18)(postcss@8.4.35)(typescript@5.4.2)(unhead@1.8.18)
+    version: 0.18.5(@types/markdown-it@13.0.7)(@unhead/shared@1.8.13)(postcss@8.4.35)(typescript@5.4.2)(unhead@1.8.18)
   valaxy-theme-sakura:
-    specifier: ^0.3.2
-    version: 0.3.2
+    specifier: ^0.4.4
+    version: 0.4.4
   valaxy-theme-yun:
     specifier: 0.18.5
     version: 0.18.5
@@ -1082,13 +1082,13 @@ packages:
       '@unhead/shared': 1.8.18
     dev: false
 
-  /@unhead/schema-org@1.8.13(@unhead/shared@1.8.18)(unhead@1.8.18):
+  /@unhead/schema-org@1.8.13(@unhead/shared@1.8.13)(unhead@1.8.18):
     resolution: {integrity: sha512-4S7INWfbkxrTbGKE0OqzXp+p3MCV6x9XzRaJReGX28F3HHxW0X9F9v/CFzkC6WXl+Fzq2ewEdATM6FoPbq2MHw==}
     peerDependencies:
       '@unhead/shared': 1.8.13
       unhead: '>=1.8.10'
     dependencies:
-      '@unhead/shared': 1.8.18
+      '@unhead/shared': 1.8.13
       ufo: 1.4.0
       unhead: 1.8.18
     dev: false
@@ -4822,8 +4822,8 @@ packages:
       sade: 1.8.1
     dev: false
 
-  /valaxy-theme-sakura@0.3.2:
-    resolution: {integrity: sha512-LmIQ+BoFq8RzD5VlQIjbYaKmaVQb060ii3k6JmIqUFYl8MlqMoP/Ai9K5HARfQ7SZxxQcTb4TWCAQvYRRVMGbA==}
+  /valaxy-theme-sakura@0.4.4:
+    resolution: {integrity: sha512-oBWY4nC+KDiWWKeG5PRJpgEieJnwHvtsO5kZQuVN9asmC92a9pt7aDh7q3ZGz2cbQiW/WoYxU8WCrF0U5vhIng==}
     dependencies:
       '@iconify-json/fa6-solid': 1.1.20
       '@iconify-json/mdi': 1.1.64
@@ -4841,7 +4841,7 @@ packages:
       animejs: 3.2.2
     dev: false
 
-  /valaxy@0.18.5(@types/markdown-it@13.0.7)(@unhead/shared@1.8.18)(postcss@8.4.35)(typescript@5.4.2)(unhead@1.8.18):
+  /valaxy@0.18.5(@types/markdown-it@13.0.7)(@unhead/shared@1.8.13)(postcss@8.4.35)(typescript@5.4.2)(unhead@1.8.18):
     resolution: {integrity: sha512-J7jpQq5Qp3EO/eo2HgrLXbODwZGV3ofAEljF1MNIPTxDm/My/WwnnEz9dPfO4zFf/I3QdygvGfc2iKPrAI3cjA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -4854,7 +4854,7 @@ packages:
       '@types/body-scroll-lock': 3.1.2
       '@types/katex': 0.16.7
       '@unhead/addons': 1.8.13
-      '@unhead/schema-org': 1.8.13(@unhead/shared@1.8.18)(unhead@1.8.18)
+      '@unhead/schema-org': 1.8.13(@unhead/shared@1.8.13)(unhead@1.8.18)
       '@unhead/vue': 1.8.13(vue@3.4.21)
       '@valaxyjs/devtools': 0.18.5(debug@4.3.4)
       '@vitejs/plugin-vue': 5.0.4(vite@5.1.6)(vue@3.4.21)

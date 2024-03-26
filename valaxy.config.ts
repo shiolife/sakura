@@ -60,9 +60,9 @@ export default defineValaxyConfig<ThemeUserConfig>({
       
     ],
     navbarTitle: [
-      'Shiroka👻',
+      'Shiroka',
       '💮',
-      '👻',
+      '',
     ],
 
     footer: {
